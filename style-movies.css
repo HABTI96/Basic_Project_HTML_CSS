@@ -1,0 +1,31 @@
+.hero-section{
+    /* background: blue; */
+    /* background-image: url(https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1060&t=st=1710168369~exp=1710168969~hmac=152b35f5f8e08ac229ccf97962c72729ad438bd74685cb959ba75c04a2437889);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/*---------banner------------*/
+.bg-movie{
+    /* background-color: red; */
+    background-image: url(https://img.freepik.com/free-photo/assortment-cinema-elements-red-background-with-copy-space_23-2148457848.jpg?w=1060&t=st=1710168369~exp=1710168969~hmac=152b35f5f8e08ac229ccf97962c72729ad438bd74685cb959ba75c04a2437889);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.movie-banner{
+    width: 500px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.movie-banner p{
+    padding: 5px;
+
+    /* text-align: center; */
+    color: rgb(243, 75, 103);
+}
+.movie-banner .un{
+    font-size: 60px;
+}
+.play{
+    padding: 5px;
+    /* text-align: center; */
+}

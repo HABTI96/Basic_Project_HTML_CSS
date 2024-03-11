@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size:cover ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+.play-btn1{
+    background-color: rgb(87, 104, 179);
+    padding:10px 50px;
+    border-radius: 5px;
+}
+.play-btn2{
+    /* background-color: aqua; */
+    padding:10px 50px;
+    border-radius: 5px;
+}
+.logo{
+    padding: 10px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    background: linear-gradient( rgba(2,0,36)30%, rgba(9,9,121,0.1));
+    z-index: 2;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    float: left;    
+    list-style: none;
+    padding: 10px;
+}
+
+.subsc{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+li:hover,.play-watch a:hover,.subsc .search:hover,.subsc button:hover
+{
+    background-color: rgb(83, 165, 165);
+}
+.search, .subscribe{
+    background-color:  rgb(76, 76, 185);
+    color: white;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin-left:0 10px;
+    border: none;
+}
+
+.search-txt, select{
+    background-color: rgb(15, 15, 78, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: 1px rgb(84, 84, 97) solid;
+}
+.search-txt{
+    padding-left: 30px;
+}
+.search-txt:focus{
+    background-color: violet;
+}
+input{
+    margin-right: 10px;
+}
+.subscribe{
+    margin-left: 15px;
+}
+::placeholder {
+    color: white;
+}
+/* ---------------hero-section---------------*/
+.hero-section{
+    padding: 160px 60px;
+    background: linear-gradient(90deg, rgba(2,0,36)10%, rgba(9,9,121,0.4));
+}
+.hero-section .info-movie p{
+    display: inline;
+    width: 400px;
+    margin:0px 10px;
+}
+.hero-section .movie-name{
+    font-size: 70px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.play-watch{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+/* ---------------BG Poster------------------- */
+
+main,.trend-view ,footer{
+    background-color: rgb(7, 5, 29);
+}
+/* ---------------before Poster------------------- */
+.trend-view{
+    display: flex;
+    justify-content: space-between;
+}
+.trend-view p, .trend-view a{
+    padding: 20px;
+    margin: 10px 0px;
+}
+.trend-view p{
+    font-size: 20px;
+}
+
+/* ---------------Poster movie------------------- */
+main{
+    /* border: 2px solid red; */
+    display: flex;
+
+    /* overflow:visible; */
+    /* overflow-y: hidden; */
+
+}
+.movie-poster{
+    margin: 0px 10px;
+
+}
+.movie-poster .info-movie{
+    display: flex;
+    justify-content: space-between;
+}
+.date-time p{
+    margin: 0 3px;
+    display: inline;
+}
+.movie-poster img{
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.tv-ma{
+    background-color: rgb(53, 50, 50);
+    border-radius:6px;
+    padding: 2px 4px;
+}
+
+/* ---------------font awesome------------------- */
+
+.play-watch a, form{
+    position: relative;
+}
+.fa-circle-play, .fa-bookmark{
+    position: absolute;
+    top: 30%;
+    right: 30px;
+}
+
+form .fa-magnifying-glass{
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+/* ---------------footer------------------- */
+.ftr-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.menu-footer{
+    list-style: none;
+}
+
+.ftr-section h3{
+    padding: 10px 0;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright ul{
+    list-style: none;
+}
+.copyright ul li{
+    display: inline;
+    padding: 10px;
+}
+.menu-footer li{
+    padding: 7px 2px;
+}
+
+
+/*-----------contact-------------*/
+.form-contact{
+    /* padding: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(0deg,rgb(17, 17, 31)10%, rgba(197, 34, 34, 0.1));
+}
+.form-contact p{
+    font-size: 15px;
+    padding:10px 0px;
+}
+.form-contact textarea{
+    background-color: rgb(97, 100, 100,0.1);
+    width: 500px;
+    border-radius:10px ;
+    color: white;
+    padding: 15px;
+}
+.form-contact .name, .form-contact .email{
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(97, 100, 100,0.1);
+    color: white;
+}
+.form-contact .submit{
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(173, 52, 68);
+    color: white;
+
+}
